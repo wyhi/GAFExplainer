@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://lab106-2@172.16.0.7:22/home/lab106-2/anaconda3/envs/subgraphx/bin/python" />
+        <remote-mappings server-id="python@sshConfig://lab106-2@172.16.0.7:22 password/home/lab106-2/anaconda3/envs/subgraphx/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/lab106-2/huwenya/file/code/my-explainer/new_mutag" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
