@@ -28,7 +28,7 @@ Process folder: Preprocessing raw data <br/>
 `node_aa.py`: node attribute enhancement module <br/>
 `utils.py`: some useful utility functions <br/>
 
-After configuring the required environment, run the main.py file directly.
+After configuring the required environment, run the `main.py` file directly.
 <br/>
 ### Take the explanation of the GAT model on the mutag dataset as an example:
 
