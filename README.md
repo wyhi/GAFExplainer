@@ -1,5 +1,8 @@
-# AAFExplainer
-Code for paper "AAFExplainer: Explaining Graph Neural Networks via Attribute Augmentation and Fusion Embedding in Global View"
+# GAFExplainer
+Code for paper "GAFExplainer: Global Explanation of Graph Neural Networks through Attribute Augmentation and Fusion Embedding"
+## Abstract:
+The excellent performance of graph neural networks (GNNs), which learn node representations by aggregating their neighborhood information, has led to their use in various graph tasks. However, GNNs are black box models, the prediction results of which are difficult to understand directly. Although node attributes are vital in making predictions, previous studies have ignored their importance for explanation. This study presents GAFExplainer, a novel GNN explainer that emphasizes node attributes via attribute augmentation and fusion embedding in a global view. In addition, a weight generator and mask fuser are set to select suitable pseudo discrete masks, thus rendering the explainable network trainable while easing the "introduced evidence" problem. By training the network, a global explanation of the GNN models is obtained, and reasonably explainable subgraphs are available for new graphs, thus rendering the model well generalizable. Multiple sets of experimental results on real and synthetic datasets demonstrate that the proposed model provides valid and accurate explanations. In the visual analysis, the explanations obtained by the proposed model are more comprehensible than those in existing work. Further, the fidelity evaluation and efficiency comparison reveal that with an average performance improvement of 8.9% compared with representative baselines, GAFExplainer achieves the best fidelity metrics while maintaining computational efficiency.
+
 ## Requirements：
 matplotlib==3.5.2 <br/>
 networkx==2.7.1 <br/>
